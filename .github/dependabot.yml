@@ -5,8 +5,6 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
-    # Create security fix PRs only
-    open-pull-requests-limit: 0
 
 
   # Dependencies listed in .github/workflows/*.yml
@@ -14,5 +12,3 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-    # Create security fix PRs only
-    open-pull-requests-limit: 0
