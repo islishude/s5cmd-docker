@@ -6,7 +6,7 @@ require (
 	github.com/aws/aws-sdk-go v1.51.25
 	github.com/cheggaaa/pb/v3 v3.1.5
 	github.com/golang/mock v1.6.0
-	github.com/google/go-cmp v0.5.9
+	github.com/google/go-cmp v0.6.0
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/iancoleman/strcase v0.3.0
 	github.com/igungor/gofakes3 v0.0.16
