@@ -8,6 +8,6 @@ RUN --mount=type=cache,target=/go/pkg/mod \
 
 FROM alpine:3.19.1
 COPY --from=build /s5cmd/s5cmd /usr/local/bin/
-RUN apk add --no-cache tar pv zstd
+RUN apk add --no-cache tar pv zstd tmux
 WORKDIR /aws
 ENTRYPOINT ["s5cmd"]
